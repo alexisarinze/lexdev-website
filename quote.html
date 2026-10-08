@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Get a free quote from LexDev for websites, e-commerce, AI solutions and custom web applications.">
+<meta name="theme-color" content="#f4f2ed">
+<title>Get a Free Quote — LexDev</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.quote-direct{display:flex;gap:12px;margin:0 0 24px;flex-wrap:wrap}.quote-direct a{border:1px solid rgba(22,22,22,.18);border-radius:99px;padding:12px 17px;font-size:.9rem;font-weight:700}.quote-direct a:hover{background:#e9e6df}
+.quote-page{max-width:1180px;margin:0 auto;padding:150px 6vw 90px}
+.quote-intro{max-width:760px;margin-bottom:52px}
+.quote-intro label{display:block;font-size:.75rem;letter-spacing:.14em;font-weight:700;margin-bottom:18px}
+.quote-intro h1{font-family:"Space Grotesk",sans-serif;font-size:clamp(3rem,7vw,6.5rem);line-height:.92;margin:0 0 24px}
+.quote-intro h1 em{font-style:normal}
+.quote-intro p{font-size:1.08rem;line-height:1.7;max-width:650px}
+.quote-card{background:#fff;border:1px solid rgba(22,22,22,.12);border-radius:24px;padding:clamp(24px,4vw,52px);box-shadow:0 20px 60px rgba(22,22,22,.06)}
+.quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.quote-field{display:flex;flex-direction:column;gap:9px}
+.quote-field.full{grid-column:1/-1}
+.quote-field label{font-weight:700;font-size:.9rem}
+.quote-field input,.quote-field select,.quote-field textarea{width:100%;box-sizing:border-box;border:1px solid rgba(22,22,22,.18);border-radius:12px;background:#f8f7f3;padding:14px 15px;font:inherit;color:#161616;outline:none}
+.quote-field input:focus,.quote-field select:focus,.quote-field textarea:focus{border-color:#161616;box-shadow:0 0 0 3px rgba(22,22,22,.07)}
+.feature-options{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.feature-options label{display:flex;align-items:center;gap:8px;border:1px solid rgba(22,22,22,.14);padding:11px 12px;border-radius:10px;font-weight:500;cursor:pointer;background:#f8f7f3}
+.feature-options input{width:auto}
+.quote-submit{margin-top:28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.quote-success{display:none;margin-top:22px;padding:18px;border-radius:14px;background:#edf7ed;border:1px solid #b9d8b9}
+.quote-success.show{display:block}
+.quote-success.error{background:#fff1ef;border-color:#e3b9b2}
+.quote-success strong{display:block;margin-bottom:5px}
+.quote-back{display:inline-block;margin-bottom:25px;text-decoration:none;color:#161616;font-weight:700}
+@media(max-width:760px){
+.quote-page{padding:120px 5vw 60px}
+.quote-grid{grid-template-columns:1fr}
+.quote-field.full{grid-column:auto}
+.feature-options{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<header class="nav">
+<a class="brand" href="index.html">LEX<span>DEV</span></a>
+<nav>
+<a href="index.html#work">Work</a>
+<a href="services.html">Services</a>
+<a href="services.html#pricing">Pricing</a>
+
+<a class="pill quote-cta" href="quote.html#quoteForm">Get a free quote ↗</a>
+</nav>
+</header>
+
+<main class="quote-page">
+<a class="quote-back" href="index.html">← Back to LexDev</a>
+<div class="quote-intro">
+<label>FREE QUOTE / PROJECT REQUEST</label>
+<h1>Tell us what you're <em>building.</em></h1>
+<p>Fill in your project details, then click the button below. Your default email app will open with everything addressed to LexDev and ready for you to send.</p>
+</div>
+
+<div class="quote-direct"><a href="mailto:alexanderarinze@outlook.com">Email LexDev ↗</a><a href="https://wa.me/2340000000000" target="_blank" rel="noopener">WhatsApp ↗</a></div>
+<div class="quote-card">
+<form id="quoteForm">
+<div class="quote-grid">
+<div class="quote-field"><label>Full Name *</label><input name="fullName" required placeholder="Your full name"></div>
+<div class="quote-field"><label>Business Name</label><input name="businessName" placeholder="Your business name"></div>
+<div class="quote-field"><label>Email Address *</label><input name="email" type="email" required placeholder="you@example.com"></div>
+<div class="quote-field"><label>Phone Number</label><input name="phone" type="tel" placeholder="+234..."></div>
+<div class="quote-field"><label>Business Industry</label><select name="industry"><option>Not sure yet</option><option>Retail / E-commerce</option><option>Professional Services</option><option>Real Estate</option><option>Hospitality</option><option>Healthcare</option><option>Education</option><option>Events / Entertainment</option><option>Fashion / Beauty</option><option>Automotive</option><option>Construction</option><option>Technology / Startup</option><option>Other</option></select></div>
+<div class="quote-field"><label>Website Type</label><select name="websiteType"><option>Business Website</option><option>Landing Page</option><option>E-commerce</option><option>Web Application</option><option>AI Solution</option><option>Website Redesign</option><option>Not sure yet</option></select></div>
+<div class="quote-field"><label>Do you already have a website?</label><select name="existingWebsite"><option>No</option><option>Yes</option><option>Yes, but I want to replace it</option></select></div>
+<div class="quote-field"><label>Project Budget</label><select name="budget"><option>Not sure yet</option><option>Under $150</option><option>$150–$300</option><option>$300–$600</option><option>$600–$1,000+</option></select></div>
+<div class="quote-field"><label>Expected Completion Date</label><input name="completionDate" id="completionDate" type="date" min="" ></div>
+<div class="quote-field full">
+<label>Features Needed</label>
+<div class="feature-options">
+<label><input type="checkbox" name="features" value="Contact Form">Contact Form</label>
+<label><input type="checkbox" name="features" value="WhatsApp">WhatsApp</label>
+<label><input type="checkbox" name="features" value="Payments">Payments</label>
+<label><input type="checkbox" name="features" value="Booking">Booking</label>
+<label><input type="checkbox" name="features" value="E-commerce">E-commerce</label>
+<label><input type="checkbox" name="features" value="User Accounts">User Accounts</label>
+<label><input type="checkbox" name="features" value="Admin Dashboard">Admin Dashboard</label>
+<label><input type="checkbox" name="features" value="AI Agent">AI Agent</label>
+<label><input type="checkbox" name="features" value="SEO">SEO</label>
+<label><input type="checkbox" name="features" value="Analytics">Analytics</label>
+<label><input type="checkbox" name="features" value="Other">Other</label>
+</div>
+</div>
+<div class="quote-field full"><label>Project Description *</label><textarea name="description" rows="7" required placeholder="What are you trying to build, improve or automate?"></textarea></div>
+<div class="quote-field"><label>Preferred Contact Method</label><select name="contactMethod"><option>Email</option><option>WhatsApp</option><option>Phone Call</option></select></div>
+</div>
+<div class="quote-submit">
+<button class="btn dark" type="submit">Open email with my quote details <span>↗</span></button>
+<span>Your email app will open with your completed details. Review and press Send to submit.</span>
+</div>
+<div class="quote-success" id="quoteSuccess" role="status" aria-live="polite">
+<strong id="quoteStatusTitle">Ready to prepare your email.</strong>
+<span id="quoteStatusMessage">Your email app will open so you can review and send your enquiry.</span>
+</div>
+</form>
+</div>
+</main>
+<script src="js/quote-form.js"></script>
+</body>
+</html>
+
+
